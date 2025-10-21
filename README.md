@@ -1,5 +1,4 @@
 
-````markdown
 # 🧙‍♂️ Backend Wizards — Stage 0 Task: Dynamic Profile API
 
 This project is a simple RESTful API built with **Django**, designed to return my profile information along with a **dynamic cat fact** fetched from an external API.  
@@ -167,6 +166,6 @@ mybackend/
 * [CatFact Ninja API](https://catfact.ninja/fact) for the random cat facts
 * [Backend Wizards](https://backend-wizards.io/) for the task challenge
 
-```
+
 
 
