@@ -16,8 +16,9 @@ def profile_view(request):
     profile = {
         "name": "Ikegbo Stanley Ogochukwu",
         "email": "stacymacbrains@gmail.com",
-        "github": "https://github.com/Staneering",
-        "bio": "Backend developer passionate about APIs and Django."
+        "stack": "Python/Django",
+        #"github": "https://github.com/Staneering",
+        #"bio": "Backend developer passionate about APIs and Django."
         }
     
     cat_fact = "Could not fetch a cat fact right now. Please try again later."
@@ -39,7 +40,6 @@ def profile_view(request):
         "status": status,
         "user": profile,
         "timestamp": datetime.now(timezone.utc).isoformat(),
-        "stack": "Python/Django",
         "fact": cat_fact,
                     
     }
